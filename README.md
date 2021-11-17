@@ -7,9 +7,9 @@ Architecture contains N-tier layers
 
 1.Controller Layer for accepting Input.
 
-2.Service Layer for Logic.
+2.Service Layer for Logic , validation , handling exceptions .
 
-3.Domain Layer for Data access and DTO's.
+3.Domain Layer for Data access and DTO's, Models.
 
 
 ## Time complexity of the algorithms :
