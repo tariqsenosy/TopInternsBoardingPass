@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "TopInternsPassingCards",
+		"_postman_id": "987eca2e-c389-ce2c-729d-64d08e62ddf9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SetCards",
+			"request": {
+				"url": "http://localhost:5000/topInternstransportationcard",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"TransType\":\"Flight\",\n\t\t\"TransNumber\":\"SK22\",\n\t\t\"StartPoint\":\"C\",\n\t\t\"EndPoint\":\"D\",\n\t\t\"StationName\":\"C-Stattion\",\n\t\t\"SeatInfo\":\"Gate 22, seat 7B.\"\n\t},\n\n\n\t\n\t\t{\n\t\t\"TransType\":\"Tok\",\n\t\t\"TransNumber\":\"K22\",\n\t\t\"StartPoint\":\"D\",\n\t\t\"EndPoint\":\"E\",\n\t\t\"StationName\":\"E-Stattion\",\n\t\t\"SeatInfo\":\"Gate 22, seat 7B.\"\n\t},\n\t\n\n\t\t{\n\t\t\"TransType\":\"Bus\",\n\t\t\"TransNumber\":\"0909\",\n\t\t\"StartPoint\":\"E\",\n\t\t\"EndPoint\":\"F\",\n\t\t\"StationName\":\"F-Stattion\",\n\t\t\"SeatInfo\":\"No Seats.\"\n\t},\t{\n\t\t\"TransType\":\"Train\",\n\t\t\"TransNumber\":\"002\",\n\t\t\"StartPoint\":\"B\",\n\t\t\"EndPoint\":\"C\",\n\t\t\"StationName\":\"B-Stattion\",\n\t\t\"SeatInfo\":\"Gate 45B, seat 3A. Baggage drop at ticket counter 344\"\n\t},\n\t\t{\n\t\t\"TransType\":\"Bus\",\n\t\t\"TransNumber\":\"001\",\n\t\t\"StartPoint\":\"A\",\n\t\t\"EndPoint\":\"B\",\n\t\t\"StationName\":\"\",\n\t\t\"SeatInfo\":\"Sit in seat 45B\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
