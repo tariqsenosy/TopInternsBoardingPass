@@ -20,7 +20,12 @@ Architecture contains N-tier layers
 
 
 ## Testing
-You Can find a Postman Collection with a sample Request of 5 Cards 
+You Can find a Postman Collection located in soultion folder [TopInternsPassingCards.postman_collection] with a sample Request of 5 Cards 
+### Test Cases
+You will find 3 test unit test cases that cover the business of the api .
+From Test Explorer : Run All test cases in view 
+
+
 
 ## Validations
 The Project Validates the following and return a response 
