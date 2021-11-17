@@ -4,11 +4,11 @@ Code challenge for sorting Transportation Cards to return List of a complete tri
 # Architecture
 ## N-Tier Layers
 Architecture contains N-tier layers 
-Controller Layer for accepting Input
-Service Layer for Logic
-Domain Layer for Data access and DTO's
+1.Controller Layer for accepting Input.
+2.Service Layer for Logic.
+3.Domain Layer for Data access and DTO's.
 
-Time complexity of the algorithms :
+## Time complexity of the algorithms :
 
 |Worst Case|Average Case|Best Case|
 |---|---|---|
