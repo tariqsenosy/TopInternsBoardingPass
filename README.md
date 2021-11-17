@@ -21,5 +21,6 @@ You Can find a Postman Collection with a sample Request of 5 Cards
 ## Validations
 The Project Validates the following and return a response 
 
-1.Empty List
-2.Un complete list
+1.Empty List.
+
+2.Un complete list.
